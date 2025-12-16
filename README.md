@@ -75,26 +75,6 @@ Le projet suit une **démarche NLP structurée en 5 étapes** :
 
 ---
 
-## 🗂️ Structure du projet
-``` medical-text-classification/
-├── data/
-│ └── medical_text.csv # Données brutes
-├── notebooks/
-│ ├── 01_data_exploration.ipynb
-│ ├── 02_text_preprocessing.ipynb
-│ ├── 03_embedding_comparison.ipynb
-│ ├── 04_classification.ipynb
-│ └── 05_results_analysis.ipynb
-├── models/
-│ └── fastext_model.ft # Modèle FastText sauvegardé
-├── report/
-│ └── figures/ # Visualisations (UMAP, barplots, etc.)
-├── requirements.txt
-└── README.md
-
-```
----
-
 ## ▶️ Comment reproduire le projet
 
 ```bash
